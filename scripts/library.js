@@ -30,8 +30,13 @@ fetch("https://striveschool-api.herokuapp.com/books")
       `
       const cardContainer = document.getElementById("cardContainer")
       cardContainer.appendChild(newCard)
-      const discardButtons = document.getElementsByTagName("button")
-      discardButtons.
+
+      //const discardButtons = document.getElementsByTagName("button")
+      //discardButtons.forEach((button) => {
+      //button.addEventListener("click", (e) => {
+      //const card = button.closest("card")
+      //})
+      //})
     })
   })
   .catch((error) => {
